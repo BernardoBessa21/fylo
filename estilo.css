@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+.imagem1{
+    background-position: top;
+    background-size: 100px;
+}
+
+.hero {
+    border: none;
+    display: flex;
+    gap: 30PX;
+    height: 500px;
+    
+   
+}
+
+.hero-content {
+    background-color: white;
+    display: inline-block;
+    height: 300px;
+    flex-basis: 50%;
+    
+    
+
+}
+
+.hero-cover {
+    background-image: url('imagem\ fylo/illustration-1.svg') ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: right;
+    height: 300px;
+    flex-basis: 50%;
+        
+}
+.hero-content input[type="submit"], 
+.hero-content input[type="email"] {
+    width: 300px;
+    border-radius: 5px;
+    padding: 15px;
+    
+    
+    
+}
+
+.hero-content input[type="submit"] {
+    background-color: rgb(46, 50, 164);
+    color: white;
+    cursor: pointer;
+    
+    
+}
+.hero-content input:hover[type="submit"]{
+    background-color: white;
+    color: black;
+}
+
+.menu {
+    background-color: white;
+    overflow: hidden;
+  }
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+  }
+  .menu li {
+    float: left;
+  }
+  .menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+  }
+  .menu li a:hover {
+    background-color: none;
+  }
+  header{
+    display: flex;
+    
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Opcional: alinha os itens verticalmente */
+}
+.margim-bottom{
+    margin-bottom: 100px;
+    
+}
+
+
